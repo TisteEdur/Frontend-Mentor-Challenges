@@ -165,7 +165,7 @@ body {
 
 .output-text {
     font-family: "Poppins-ExtraBoldItalic";
-    font-size: 2.9rem;
+    font-size: 2.5rem;
     line-height: 1.1;
     color: hsl(0, 0%, 8%);
 }
@@ -211,6 +211,12 @@ body {
 /* ===== End Styling Hover States ===== */
 
 /* ===== Media Queries ===== */
+@media (min-width: 420px) {
+    .output-text {
+        font-size: 4rem;
+    }
+}
+
 @media (min-width: 680px) {
     .content {
         padding: 0 3.5rem;

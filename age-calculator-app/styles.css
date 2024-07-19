@@ -175,6 +175,10 @@ body {
 }
 
 .footer {
+    width: 100%;
+    margin: 0 auto .5rem;
+    max-width: 80vw;
+    text-align: center;
     font-family: "Poppins-Italic";
     color: hsl(0, 0%, 8%);
 
@@ -192,15 +196,15 @@ body {
     .user-input {
         & .input-wrapper {
             & input:hover {
-               border-color:  hsl(0, 0%, 8%);
-               cursor: pointer;
+                border-color: hsl(0, 0%, 8%);
+                cursor: pointer;
             }
         }
     }
 
     .submit-btn:hover {
         background-color: hsl(0, 0%, 8%);
-        cursor: pointer;    
+        cursor: pointer;
     }
 }
 
@@ -286,6 +290,10 @@ body {
 
     .output-numbers {
         letter-spacing: 1rem;
+    }
+
+    .footer {
+        margin: 0 auto 1rem;
     }
 }
 
